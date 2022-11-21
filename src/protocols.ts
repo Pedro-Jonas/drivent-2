@@ -30,3 +30,9 @@ export type RequestError = {
   message: string,
 };
 
+export type InsertTicket = {       
+  ticketTypeId: number,
+  enrollmentId: number,
+  status: string,
+  updatedAt:  Date,
+};
